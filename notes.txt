@@ -1,0 +1,48 @@
+//file setup
+touch notes.txt
+touch index.html
+touch main.css
+
+//CSS layout properties
+box-sizing
+    -has to do with the box model in CSS
+    -changes what parts of the box mdel are included in the dimensions
+    
+
+Display
+    -All elements are eiter BLOCK or INLINE
+    -Use to CHANGE the display type of the elements
+    -Allows us to set a display type of INLINE-BLOCK
+    
+Inline level elements share space. inline does not allow styles.
+block does note
+Divs are block
+
+positition
+    - 4 types of psoitioning
+    - often used with coordinate CSS properties
+    1. static - what all elements have by default
+        (elements are NOT positioned)
+    2. Relative - Doesnt change where the element takes up space, 
+    only where it is rendered
+    3. Fixed Positioned with respect to the WINDOW
+    4. Abosolute - Positioned with resoect to their closest positioned ancestor
+    (or the body)
+    Absolutely positioned items are removed from the documents flow
+    
+    
+To use cordinates, the parent must be positioned.
+    
+    
+Floats
+    - is used to wrap content from other elements around themselves
+    - can float an element LEFT or RIGHT (NONE)
+    
+    - Clear / Overflow
+        -CLEAR : designed to prevent an element from sharing space with 
+        a floated element
+        LEFT / RIGHT / BOTH
+    - OVERFLOW
+        : typically used to control overflowing content
+        : Also used to change float interactions
+        
